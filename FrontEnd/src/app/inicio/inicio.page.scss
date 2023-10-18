@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/happy-school');
+
+ion-content{
+    --overflow: hidden;
+}
+
+.botao{
+    border-radius:  5px ;
+    width: 70%; 
+    background-color: #734458;
+}
+
+ion-button{
+    width: 70%;
+
+}
+.ft{
+     border: solid 3px black; border-radius: 20px;
+    
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1920px) {
+.logo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+   margin: auto;
+   height: 450px;
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+   margin: 0px;
+    
+}
+p{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+   margin: 0px;
+    
+}
+ion-button{
+    width: 50%;
+
+}
+.botao{
+    border-radius:  5px ;
+    width: 50%; 
+    background-color: #734458;
+}
+
+
+}
